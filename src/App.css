@@ -1,0 +1,16 @@
+/* 화면 전체를 채우는 부모 컨테이너 스타일 */
+.App {
+  display: flex;
+  justify-content: center; /* 가로 가운데 정렬 */
+  align-items: center;    /* 세로 가운데 정렬 */
+  height: 100vh;          /* 브라우저 높이에 맞춤 */
+  margin: 0;
+  background-color: #f4f4f4; /* 배경색 (선택 사항) */
+}
+
+/* 이미지 스타일 */
+.centered-image {
+  max-height: 100%; /* 브라우저 높이에 맞춤 */
+  max-width: 100%;  /* 이미지 가로도 비율에 맞게 조정 */
+  object-fit: contain; /* 이미지 비율 유지하며 잘리지 않게 */
+}
