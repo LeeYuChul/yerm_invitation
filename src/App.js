@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       <img src={InvitationImage} alt="Invitation" className="centered-image" />
       <button className="kakao-button" onClick={sendLinkCustom}>
-        카카오초대장 받기 (Custom)
+        카카오초대장 받기
       </button>
     </div>
   );
