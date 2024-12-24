@@ -15,7 +15,7 @@ function SeosInvitaion() {
     // 커스텀 템플릿 공유 함수
     const sendLinkCustom = () => {
         window.Kakao.Link.sendCustom({
-            templateId: 115536,
+            templateId: 115677,
         });
     };
 
